@@ -10,7 +10,7 @@ sudo apt-get purge nvidia*
 ```
 
 kill your current X server session by typing ```sh sudo service lightdm stop ``` or ```sh sudo lightdm stop```          
-Enter runlevel 3 by typing ```sh sudo init 3   ```         
+Enter runlevel 3 by typing ```sh sudo init 3  ```         
 Install your *.run file.       
 you change to the directory where you have downloaded the file by typing for instance ```sh cd Downloads ```. If it is in another directory, go there. Check if you see the file when you type ls NVIDIA*           
 Make the file executable with ```sh chmod +x ./your-nvidia-file.run  ```     
