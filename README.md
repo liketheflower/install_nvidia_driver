@@ -5,7 +5,9 @@ Hit Ctrl+Alt+F1 and login using your credentials.
 
 First of all I suggest removing all nvidia drivers.   
 
+```sh 
 sudo apt-get purge nvidia*  
+```
 
 kill your current X server session by typing sudo service lightdm stop or sudo lightdm stop          
 Enter runlevel 3 by typing sudo init 3            
