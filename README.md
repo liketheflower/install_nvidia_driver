@@ -9,7 +9,7 @@ First of all I suggest removing all nvidia drivers.
 sudo apt-get purge nvidia*  
 ```
 
-kill your current X server session by typing sudo service lightdm stop or sudo lightdm stop          
+kill your current X server session by typing ```sh sudo service lightdm stop ``` or ```sh sudo lightdm stop```          
 Enter runlevel 3 by typing sudo init 3            
 Install your *.run file.       
 you change to the directory where you have downloaded the file by typing for instance cd Downloads. If it is in another directory, go there. Check if you see the file when you type ls NVIDIA*           
