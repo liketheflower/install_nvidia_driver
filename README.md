@@ -22,10 +22,28 @@ Enter runlevel 3 by typing
 sudo init 3  
 ```         
 Install your *.run file.       
-you change to the directory where you have downloaded the file by typing for instance ```sh cd Downloads ```. If it is in another directory, go there. Check if you see the file when you type ls NVIDIA*           
-Make the file executable with ```sh chmod +x ./your-nvidia-file.run  ```     
-Execute the file with ```sh sudo ./your-nvidia-file.run  ```      
-You might be required to reboot when the installation finishes. If not, run ```sh sudo service lightdm start``` or ```sh sudo start lightdm``` to start your X server again.        
+you change to the directory where you have downloaded the file by typing for instance 
+```sh 
+cd Downloads 
+```
+. If it is in another directory, go there. Check if you see the file when you type ls NVIDIA*           
+Make the file executable with 
+```sh 
+chmod +x ./your-nvidia-file.run  
+```     
+Execute the file with 
+```sh 
+sudo ./your-nvidia-file.run  
+```      
+You might be required to reboot when the installation finishes. If not, run 
+```sh 
+sudo service lightdm start
+``` 
+or 
+```sh 
+sudo start lightdm
+``` 
+to start your X server again.        
 
 
 
