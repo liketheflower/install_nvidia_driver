@@ -1,5 +1,27 @@
 # install_nvidia_driver
 
+
+Hit Ctrl+Alt+F1 and login using your credentials.      
+
+First of all I suggest removing all nvidia drivers.   
+
+sudo apt-get purge nvidia*  
+
+kill your current X server session by typing sudo service lightdm stop or sudo lightdm stop          
+Enter runlevel 3 by typing sudo init 3            
+Install your *.run file.       
+you change to the directory where you have downloaded the file by typing for instance cd Downloads. If it is in another directory, go there. Check if you see the file when you type ls NVIDIA*           
+Make the file executable with chmod +x ./your-nvidia-file.run       
+Execute the file with sudo ./your-nvidia-file.run        
+You might be required to reboot when the installation finishes. If not, run sudo service lightdm start or sudo start lightdm to start your X server again.        
+
+
+
+
+# reference 1
+
+https://askubuntu.com/questions/636620/cannot-install-nvidia-driver-for-ubuntu-14-04    
+
 First of all I suggest removing all nvidia drivers.
 
 sudo apt-get purge nvidia*
@@ -30,6 +52,12 @@ sudo apt-get purge nvidia*
 
 
 
+
+
+
+#  reference 2
+
+https://askubuntu.com/questions/149206/how-to-install-nvidia-run   
 
 
 Hit Ctrl+Alt+F1 and login using your credentials.  
