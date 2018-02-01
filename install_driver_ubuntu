@@ -1,0 +1,16 @@
+
+# how to install GPU driver for Titan Xp based on ubuntu 14.04
+'''shell
+sudo apt-get purge nvidia*
+sudo add-apt-repository ppa:graphics-drivers
+sudo apt-get update
+sudo apt-get install nvidia-390
+sudo reboot
+```
+it worked very well.
+reference
+
+http://www.linuxandubuntu.com/home/how-to-install-latest-nvidia-drivers-in-linux
+
+
+
