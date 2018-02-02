@@ -109,3 +109,8 @@ export PATH=$PATH:/usr/local/cuda-8.0/bin
 vi ~/.profile
 paste export PATH=$PATH:/usr/local/cuda-8.0/bin at end of file
 source ~/.profile
+
+
+# good reference 
+
+https://medium.com/@acrosson/installing-nvidia-cuda-cudnn-tensorflow-and-keras-69bbf33dce8a
