@@ -1,0 +1,7 @@
+# driver
+
+ctrl + alt + f1
+go to terminal
+(make sure you are connect to the network)
+
+sudo apt-get update
